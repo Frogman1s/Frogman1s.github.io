@@ -5,8 +5,8 @@
   <meta name="Volantis" content="5.7.6">
   <meta charset="utf-8">
   <!-- SEO相关 -->
-  <meta name="robots" content="noindex,follow">
-  <link rel="canonical" href="http://Frogman1s.github.io/archives/"/>
+  
+  <link rel="canonical" href="http://Frogman1s.github.io/2022/11/01/ubuntu服务器ssh配置并完成内网穿透/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://unpkg.com'>
@@ -32,17 +32,19 @@
 
   <!-- feed -->
   <!-- 页面元数据 -->
-  <title>Archive - frogman</title>
-  <meta name="keywords" content="null">
-  <meta desc name="description" content="frogman space - Allen.S - frogman">
+  <title>ubuntu服务器ssh配置并完成内网穿透 - frogman</title>
+  <meta name="keywords" content="ssh 内网穿透 linux,null">
+  <meta desc name="description" content="服务器配置ssh登录并实现内网穿透，让你随时随地轻松访问 - Allen.S - frogman">
   
-<meta property="og:type" content="website">
-<meta property="og:title" content="frogman">
-<meta property="og:url" content="http://frogman1s.github.io/archives/index.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ubuntu服务器ssh配置并完成内网穿透">
+<meta property="og:url" content="http://frogman1s.github.io/2022/11/01/ubuntu%E6%9C%8D%E5%8A%A1%E5%99%A8ssh%E9%85%8D%E7%BD%AE%E5%B9%B6%E5%AE%8C%E6%88%90%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/index.html">
 <meta property="og:site_name" content="frogman">
-<meta property="og:description" content="frogman space">
+<meta property="og:description" content="服务器配置ssh登录并实现内网穿透，让你随时随地轻松访问">
 <meta property="og:locale">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+<meta property="article:published_time" content="2022-11-01T03:46:59.420Z">
+<meta property="article:modified_time" content="2022-11-01T04:02:33.971Z">
 <meta property="article:author" content="Allen.S">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
@@ -2506,7 +2508,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
-      <div id="half" class='cover-wrapper  search' style="display: ;">
+      <div id="half" class='cover-wrapper post search' style="display: ;">
         
   <div class='cover-bg lazyload placeholder' data-bg="https://w.wallhaven.cc/full/d6/wallhaven-d65dyj.png"></div>
 
@@ -2547,79 +2549,229 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class="body-wrapper">
           
 <div id="l_main" class=''>
-	
-	  <article id="arc" class="post article white-box reveal shadow floatable blur">
-			
-			
-				
-				
-					
-						
-						<h2>2022</h2>
-					
-						<div class='timenode'>
-								<a class="meta" href="/2022/11/01/ubuntu%E6%9C%8D%E5%8A%A1%E5%99%A8ssh%E9%85%8D%E7%BD%AE%E5%B9%B6%E5%AE%8C%E6%88%90%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/">
-									<time>11-01</time>
-									
-										ubuntu服务器ssh配置并完成内网穿透
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						<div class='timenode'>
-								<a class="meta" href="/2022/10/30/%E9%9A%8F%E7%AC%94/">
-									<time>10-30</time>
-									
-										随笔
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						<div class='timenode'>
-								<a class="meta" href="/2022/10/30/Swagger2/">
-									<time>10-30</time>
-									
-										Swagger2入门
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						<div class='timenode'>
-								<a class="meta" href="/2022/10/29/hello-world/">
-									<time>10-29</time>
-									
-										Hello World
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-	  </article>
-	
+  <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
+  <link itemprop="mainEntityOfPage" href="http://frogman1s.github.io/2022/11/01/ubuntu服务器ssh配置并完成内网穿透/">
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="frogman">
+  </span>
+  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
+    <meta itemprop="name" content="frogman">
+    <meta itemprop="description" content="frogman space">
+  </span>
+  
+
+
+  
+    <span hidden>
+      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+    </span>
+  
+  <div class="article-meta" id="top">
+    
+    
+    
+      <h1 class="title" itemprop="name headline">
+        ubuntu服务器ssh配置并完成内网穿透
+      </h1>
+      <div class='new-meta-box'>
+        
+          
+            
+<div class='new-meta-item author' itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <a itemprop="url" class='author' href="/" rel="nofollow">
+    <img itemprop="image" src="https://s2.loli.net/2022/10/30/BJcqfjX9KIz8RxU.jpg" class="lazyload" data-srcset="https://s2.loli.net/2022/10/30/BJcqfjX9KIz8RxU.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+    <p itemprop="name">frogman</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  <div class='new-meta-item category'>
+    <i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i>
+    <a class="category-link" href="/categories/cploar/">cploar</a><span class="sep"></span><a class="category-link" href="/categories/linux/">linux</a><span class="sep"></span><a class="category-link" href="/categories/linux/ssh/">ssh</a>
+    
+      <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+        <a href="/categories/linux/" itemprop="url"><span itemprop="name">linux</span></a>
+      </span>
+    
+      <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+        <a href="/categories/linux/ssh/" itemprop="url"><span itemprop="name">ssh</span></a>
+      </span>
+    
+      <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+        <a href="/categories/cploar/" itemprop="url"><span itemprop="name">cploar</span></a>
+      </span>
+    
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2022-11-01T11:46:59+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：Nov 1, 2022</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+
+<div class="new-meta-item browse">
+  <a class='notlink'>
+    <p>
+      <i class="fa-solid fa-eye fa-fw" aria-hidden="true"></i>
+      
+      <span id="lc-pv" data-title="ubuntu服务器ssh配置并完成内网穿透" data-path="/2022/11/01/ubuntu%E6%9C%8D%E5%8A%A1%E5%99%A8ssh%E9%85%8D%E7%BD%AE%E5%B9%B6%E5%AE%8C%E6%88%90%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/">
+        <span id='number'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span>
+      </span>
+      
+      <span>次浏览</span>
+    </p>
+  </a>
+</div>
+
+
+          
+        
+        <!-- Custom Files topMeta begin-->
+        
+        <!-- Custom Files topMeta end-->
+      </div>
+    
+  </div>
+
+
+  <div id="layoutHelper-page-plugins"></div>
+  <div id="post-body" itemprop="articleBody">
+    <h3 id="ubuntu服务器ssh配置并完成内网穿透"><a href="#ubuntu服务器ssh配置并完成内网穿透" class="headerlink" title="ubuntu服务器ssh配置并完成内网穿透"></a>ubuntu服务器ssh配置并完成内网穿透</h3><p>基本介绍:物理服务器已经安装ubuntu18.04.需要配置ssh实现内网登录,并且使用内网穿透实现公网远程访问.</p>
+<p>注意:如果你只是想登陆别的机器的SSH只需要安装openssh-client(ubuntu有默认安装，如果没有则sudo apt-get install openssh-client)，如果要使本机开放SSH服务就需要安装openssh-server</p>
+<h2 id="一、配置ssh实现内网登录"><a href="#一、配置ssh实现内网登录" class="headerlink" title="一、配置ssh实现内网登录:"></a>一、配置ssh实现内网登录:</h2><h3 id="1-安装ssh-server"><a href="#1-安装ssh-server" class="headerlink" title="1.安装ssh-server:"></a>1.安装ssh-server:</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install openssh-server</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-启动ssh服务"><a href="#2-启动ssh服务" class="headerlink" title="2.启动ssh服务:"></a>2.启动ssh服务:</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo /etc/init.d/ssh start或sudo service ssh start</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-设置允许远程root用户登录"><a href="#3-设置允许远程root用户登录" class="headerlink" title="3.设置允许远程root用户登录:"></a>3.设置允许远程root用户登录:</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
+
+<p>搜索找到PermitRootLogin</p>
+<p>加入配置</p>
+<p>PermitRootLogin yes</p>
+<h3 id="4-重启SSH服务："><a href="#4-重启SSH服务：" class="headerlink" title="4.重启SSH服务："></a>4.重启SSH服务：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo /etc/init.d/ssh stop</span><br><span class="line">sudo /etc/init.d/ssh start</span><br></pre></td></tr></table></figure>
+
+<h3 id="5-登陆SSH"><a href="#5-登陆SSH" class="headerlink" title="5.登陆SSH"></a>5.登陆SSH</h3><p>同一局域网内其他机器可以输入命令实现访问,内网访问</p>
+<p>ssh 服务器名字@内网ip<br><font color='red'><strong>注意:</strong></font>不知道服务器IP地址可输入ifconfig查看,如果找不到命令请先输入</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install net-tools</span><br></pre></td></tr></table></figure>
+
+<p>安装net-tools.</p>
+<h2 id="二、内网穿透-实现公网访问"><a href="#二、内网穿透-实现公网访问" class="headerlink" title="二、内网穿透,实现公网访问"></a>二、内网穿透,实现公网访问</h2><p>介绍:上述方式已经实现同一局域网内对ubuntu服务器的访问,客户端一旦离开该局域网就会失去连接,如果想要实现在家里,咖啡厅或者其他地方随时随地对服务器访问该怎么办呢?在ipv4公网IP资源枯竭的情况下，运营商基本不会分配公网IP。而想要实现公网访问内网&#x2F;局域网，普遍是通过内网穿透来实现。<br>本文使用cpolar完成内网穿透，支持http&#x2F;https&#x2F;tcp协议，可免费使用，并且不限制流量。能够将本地端口映射到公网上，生成公网，实现外网任意地点远程访问内网。</p>
+<h3 id="1-安装cpolar"><a href="#1-安装cpolar" class="headerlink" title="1.安装cpolar"></a>1.安装cpolar</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -L https://www.cpolar.com/static/downloads/install-release-cpolar.sh | sudo bash</span><br></pre></td></tr></table></figure>
+
+<p>注意:如果没有curl请按照提示安装curl</p>
+<h3 id="2-查看cpolar版本信息"><a href="#2-查看cpolar版本信息" class="headerlink" title="2.查看cpolar版本信息"></a>2.查看cpolar版本信息</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cpolar version</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-注册登录cpolar获取Authtoken"><a href="#3-注册登录cpolar获取Authtoken" class="headerlink" title="3.注册登录cpolar获取Authtoken"></a>3.注册登录cpolar获取Authtoken</h3><p>复制你的token</p>
+<p><img src="https://img-blog.csdnimg.cn/c145ff0a358a4d0085f6ffda66a7b4a4.png" class="lazyload" data-srcset="https://img-blog.csdnimg.cn/c145ff0a358a4d0085f6ffda66a7b4a4.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="img"></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cpolar authtoken xxxxxxx(你的token)</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="4-向系统添加服务"><a href="#4-向系统添加服务" class="headerlink" title="4.向系统添加服务"></a>4.向系统添加服务</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl <span class="built_in">enable</span> cpolar</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="5-启动cpolar服务"><a href="#5-启动cpolar服务" class="headerlink" title="5.启动cpolar服务"></a>5.启动cpolar服务</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl start cpolar</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="6-查看服务状态"><a href="#6-查看服务状态" class="headerlink" title="6.查看服务状态"></a>6.查看服务状态</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl status cpolar</span><br></pre></td></tr></table></figure>
+
+<h3 id="7-开启穿透"><a href="#7-开启穿透" class="headerlink" title="7.开启穿透"></a>7.开启穿透</h3><p>要在端口80上启动HTTP隧道，请运行以下命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cpolar http 80</span><br></pre></td></tr></table></figure>
+
+<h3 id="8-获取ssh隧道的公网地址"><a href="#8-获取ssh隧道的公网地址" class="headerlink" title="8.获取ssh隧道的公网地址"></a>8.获取ssh隧道的公网地址</h3><p>登录cpolar web UI管理界面</p>
+<p>在浏览器访问：<a target="_blank" rel="noopener" href="http://localhost:9200/%EF%BC%8C%E8%BE%93%E5%85%A5%E6%89%80%E6%B3%A8%E5%86%8C%E7%9A%84cpolar%E8%B4%A6%E5%8F%B7%E5%AF%86%E7%A0%81%EF%BC%8C%E7%99%BB%E5%BD%95cpolar">http://localhost:9200/，输入所注册的cpolar账号密码，登录cpolar</a> web UI管理界面</p>
+<p><img src="https://img-blog.csdnimg.cn/341908d3c1e14a56a6819f8ec7714994.png" class="lazyload" data-srcset="https://img-blog.csdnimg.cn/341908d3c1e14a56a6819f8ec7714994.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="img"> </p>
+<p>控制端电脑打开终端命令行，输入命令，远程ssh访问局域网内的ubuntu。</p>
+<p>如cpolar已经将本地22端口映射到了xxxx端口，所以，ssh命令需要加-p参数，后面加公网隧道端口号(具体端口号在url的:后面)</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh  -p XXXXX 用户名@1.tcp.vip.cpolar.cn（X为cpolar生成的端口号，用户名替换为主机用户名）</span><br></pre></td></tr></table></figure>
+
+<p>在输入正确的命令后，Ubuntu会出现提示信息，询问是否确定连接该端口，并要求输入Ubuntu系统的密码，此时分别输入“yes”和ubunt系统密码即可。</p>
+<p>注意:cpolar免费版24小时更新一次公网ip,记得修改命令里的ip参数.<a src='https://www.cpolar.com/docs'>详情见文档</a></p>
+
+  </div>
+  
+  
+    
+    <div class='footer'>
+       <!-- 参考资料、相关资料等 -->
+      
+       <!-- 相关文章 -->
+      
+      <!-- 版权声明组件 -->
+      
+      <!-- 打赏组件 -->
+      
+    </div>
+  
+  
+    
+
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+    </div>
+    <!-- Custom Files bottomMeta begin -->
+    
+    <!-- Custom Files bottomMeta end -->
+  </div>
+
+
+  
+  
+
+  
+    <div class="prev-next">
+      
+      
+        <a class='next' href='/2022/10/30/%E9%9A%8F%E7%AC%94/'>
+          <p class='title'>随笔<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>这是一篇随笔。。。
+</p>
+        </a>
+      
+    </div>
+  
+  <!-- Custom Files postEnd begin-->
+  
+  <!-- Custom Files postEnd end-->
+</article>
+
+
+  
+
+
+  <article class="post white-box shadow floatable blur" id="comments">
+    <span hidden>
+      <meta itemprop="discussionUrl" content="/2022/11/01/ubuntu%E6%9C%8D%E5%8A%A1%E5%99%A8ssh%E9%85%8D%E7%BD%AE%E5%B9%B6%E5%AE%8C%E6%88%90%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/index.html#comments">
+    </span>
+    <p ct><i class='fa-solid fa-comments'></i> 评论</p>
+    
+
+    <div id="layoutHelper-comments"></div>
+
+  </article>
+
+
+
+
+
+
 </div>
 <aside id='l_side' itemscope itemtype="http://schema.org/WPSideBar">
   
@@ -2700,6 +2852,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
       
+    
+  
+
+  
+    
+    
+      
   
   <section class="widget category desktop pjax">
     
@@ -2755,77 +2914,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
       
-<section class="widget desktop pjax">
-  
-  <header>
-    
-      <i class="fa-solid fa-award fa-fw" aria-hidden="true"></i><span class='name'>站点信息</span>
-    
-  </header>
-
-
-  <div class='content'>
-    <div class="webinfo">
-      
-        <div class="webinfo-item">
-          <div>文章数目：</div>
-          <div>4 篇</div>
-        </div>
-      
-
-      
-        <div class="webinfo-item">
-          <div>已运行时间：</div>
-          <div id="webinfo-runtime-count"></div>
-        </div>
-      
-
-
-      
-
-      
-
-      
-
-      
-        <div class="webinfo-item">
-          <div>最后活动时间：</div>
-          <div id="last-update-show">2022-11-01 日</div>
-        </div>
-      
-    </div>
-  </div>
-</section>
-
-    
-  
-
-  
-    
-    
-      
-
-<section class="widget desktop mobile pjax">
-  
-  <header>
-    
-      <i class="fa-solid fa-clock WISTERIA fa-fw" aria-hidden="true"></i><span class='name'>最近更新</span>
-    
-  </header>
-
-
-  <div class='content'>
-    <ul class="list entry navigation"><li><a class="widget-last" href="/2022/11/01/ubuntu%E6%9C%8D%E5%8A%A1%E5%99%A8ssh%E9%85%8D%E7%BD%AE%E5%B9%B6%E5%AE%8C%E6%88%90%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/"><div class="item"><time>2022-11-01</time><span>linux</span></div><span>ubuntu服务器ssh配置并完成内网穿透</span></a></li><li><a class="widget-last" href="/2022/10/30/%E9%9A%8F%E7%AC%94/"><div class="item"><time>2022-10-30</time><span>随笔</span></div><span>随笔</span></a></li><li><a class="widget-last" href="/2022/10/30/Swagger2/"><div class="item"><time>2022-10-30</time><span>java</span></div><span>Swagger2入门</span></a></li><li><a class="widget-last" href="/2022/10/29/hello-world/"><div class="item"><time>2022-10-29</time></div><span>Hello World</span></a></li></ul>
-  </div>
-</section>
-
-    
-  
-
-  
-    
-    
-      
 
   <section class='widget desktop mobile  music'>
     
@@ -2860,10 +2948,38 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 <div class="widget-sticky pjax">
 
+  
+  
+
+
+  <section class="widget toc-wrapper desktop mobile " id="toc-div" >
+    
+  <header>
+    
+      <i class="fa-solid fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
+    
+  </header>
+
+
+    <div class='content'>
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#ubuntu%E6%9C%8D%E5%8A%A1%E5%99%A8ssh%E9%85%8D%E7%BD%AE%E5%B9%B6%E5%AE%8C%E6%88%90%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F"><span class="toc-text">ubuntu服务器ssh配置并完成内网穿透</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E9%85%8D%E7%BD%AEssh%E5%AE%9E%E7%8E%B0%E5%86%85%E7%BD%91%E7%99%BB%E5%BD%95"><span class="toc-text">一、配置ssh实现内网登录:</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%AE%89%E8%A3%85ssh-server"><span class="toc-text">1.安装ssh-server:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%90%AF%E5%8A%A8ssh%E6%9C%8D%E5%8A%A1"><span class="toc-text">2.启动ssh服务:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E8%AE%BE%E7%BD%AE%E5%85%81%E8%AE%B8%E8%BF%9C%E7%A8%8Broot%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95"><span class="toc-text">3.设置允许远程root用户登录:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E9%87%8D%E5%90%AFSSH%E6%9C%8D%E5%8A%A1%EF%BC%9A"><span class="toc-text">4.重启SSH服务：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-%E7%99%BB%E9%99%86SSH"><span class="toc-text">5.登陆SSH</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F-%E5%AE%9E%E7%8E%B0%E5%85%AC%E7%BD%91%E8%AE%BF%E9%97%AE"><span class="toc-text">二、内网穿透,实现公网访问</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%AE%89%E8%A3%85cpolar"><span class="toc-text">1.安装cpolar</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E6%9F%A5%E7%9C%8Bcpolar%E7%89%88%E6%9C%AC%E4%BF%A1%E6%81%AF"><span class="toc-text">2.查看cpolar版本信息</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E6%B3%A8%E5%86%8C%E7%99%BB%E5%BD%95cpolar%E8%8E%B7%E5%8F%96Authtoken"><span class="toc-text">3.注册登录cpolar获取Authtoken</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E5%90%91%E7%B3%BB%E7%BB%9F%E6%B7%BB%E5%8A%A0%E6%9C%8D%E5%8A%A1"><span class="toc-text">4.向系统添加服务</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-%E5%90%AF%E5%8A%A8cpolar%E6%9C%8D%E5%8A%A1"><span class="toc-text">5.启动cpolar服务</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-%E6%9F%A5%E7%9C%8B%E6%9C%8D%E5%8A%A1%E7%8A%B6%E6%80%81"><span class="toc-text">6.查看服务状态</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-%E5%BC%80%E5%90%AF%E7%A9%BF%E9%80%8F"><span class="toc-text">7.开启穿透</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-%E8%8E%B7%E5%8F%96ssh%E9%9A%A7%E9%81%93%E7%9A%84%E5%85%AC%E7%BD%91%E5%9C%B0%E5%9D%80"><span class="toc-text">8.获取ssh隧道的公网地址</span></a></li></ol>
+    </div>
+  </section>
+
+  
+
 </div>
 
 
 <!-- 没有 pjax 占位会报错 万恶的 pjax -->
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
 
   <div class="pjax">
     <!-- pjax占位 -->
@@ -2887,13 +3003,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </aside>
 
 
+
           <!--此文件用来存放一些不方便取值的变量-->
 <!--思路大概是将值藏到重加载的区域内-->
 
 <pjax>
 <script>
   window.pdata={}
-  pdata.ispage=false;
+  pdata.ispage=true;
   pdata.commentPath="";
   pdata.commentPlaceholder="";
   pdata.commentConfig={};
@@ -3825,7 +3942,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"frogman","url":"http://Frogman1s.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Allen.S","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://Frogman1s.github.io/","sameAs":["https://github.com/volantis-x"],"description":"frogman space"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://Frogman1s.github.io/","name":"frogman"}},{"@type":"ListItem","position":2,"item":{"@id":"http://Frogman1s.github.io/archives/","name":"Archive"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"frogman","url":"http://Frogman1s.github.io/","keywords":null,"description":"frogman space","author":{"@type":"Person","name":"Allen.S","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://Frogman1s.github.io/","description":"frogman space"},"publisher":{"@type":"Organization","name":"frogman","url":"http://Frogman1s.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://Frogman1s.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"frogman space","inLanguage":"-zh-CN -en","mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"Allen.S","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://Frogman1s.github.io/"},"publisher":{"@type":"Organization","name":"frogman","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"frogman","url":"http://Frogman1s.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Allen.S","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://Frogman1s.github.io/","sameAs":["https://github.com/volantis-x"],"description":"frogman space"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://Frogman1s.github.io/","name":"frogman"}},{"@type":"ListItem","position":2,"item":{"@id":"http://Frogman1s.github.io/categories/linux/","name":"linux"}},{"@type":"ListItem","position":2,"item":{"@id":"http://Frogman1s.github.io/categories/linux/ssh/","name":"ssh"}},{"@type":"ListItem","position":2,"item":{"@id":"http://Frogman1s.github.io/categories/cploar/","name":"cploar"}},{"@type":"ListItem","position":3,"item":{"@id":"http://Frogman1s.github.io/2022/11/01/ubuntu服务器ssh配置并完成内网穿透/","name":"ubuntu服务器ssh配置并完成内网穿透"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"frogman","url":"http://Frogman1s.github.io/","keywords":null,"description":"frogman space","author":{"@type":"Person","name":"Allen.S","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://Frogman1s.github.io/","description":"frogman space"},"publisher":{"@type":"Organization","name":"frogman","url":"http://Frogman1s.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://Frogman1s.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"ubuntu服务器ssh配置并完成内网穿透","description":"服务器配置ssh登录并实现内网穿透，让你随时随地轻松访问","inLanguage":"-zh-CN -en","mainEntityOfPage":{"@type":"WebPage","@id":"http://frogman1s.github.io/2022/11/01/ubuntu%E6%9C%8D%E5%8A%A1%E5%99%A8ssh%E9%85%8D%E7%BD%AE%E5%B9%B6%E5%AE%8C%E6%88%90%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/"},"author":{"@type":"Person","name":"Allen.S","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://Frogman1s.github.io/"},"publisher":{"@type":"Organization","name":"frogman","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://frogman1s.github.io/2022/11/01/ubuntu%E6%9C%8D%E5%8A%A1%E5%99%A8ssh%E9%85%8D%E7%BD%AE%E5%B9%B6%E5%AE%8C%E6%88%90%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/","wordCount":0,"datePublished":"2022-11-01T03:46:59.420Z","dateModified":"2022-11-01T04:02:33.971Z","articleSection":"linux","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
